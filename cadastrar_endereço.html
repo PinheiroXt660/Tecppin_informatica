@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="cadastrar_endereço.css">
+</head>
+<body>
+    <h1>Novo Endereço</h1>
+    <table border="">
+        <tr>
+            <td>
+                Nome:
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required ><br>
+                Sobrenome:
+                    <input type="text" id="Sobrenome" name="Sobrenome" placeholder="Digite seu sobrenome" required><br>
+                CPF:
+                <input type="cpf" pattern="[0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}" placeholder="Digite seu CPF" required
+                     id="cpf" name="cpf" required><br>
+                Número de telefone:
+                    <input type="number" id="Número de telefone" name="Número de telefone" placeholder="Digite seu número" required><br>
+                Endereço:
+                    <input type="text" id="Endereço" name="Endereço" placeholder="Digite seu endereço" required><br>
+                Bairro:
+                    <input type="text" id="Bairro" name="Bairro" placeholder="Digite seu bairro" required><br>
+                Informações adicionais:
+                    <input type="text" id="Informações adicionais" name="Informações adicionais" placeholder="Digite aqui" ><br>
+                CEP/Código Postal:
+                    <input type="number" id="CEP/Código Postal" name="CEP/Código Postal" placeholder="Digite seu CEP" required><br>
+                Estado/Província:
+                    <input type="text" id="Estado/Província" name="Estado/Província" placeholder="Digite seu estado" required><br>
+                Cidade:
+                    <input type="text" id="Cidade" name="Cidade" placeholder="Digite sua cidade" required><br>
+            </td>
+        </tr>
+    </table>
+        <tr>
+            <td>
+                Definir como endereço padrão:
+                <input type="checkbox" id="padrao" name="pradrao"><br>
+            </td>
+        </tr>
+
+    <button type="submit">Finalizar</button>
+
+
+</body>
+</html>
