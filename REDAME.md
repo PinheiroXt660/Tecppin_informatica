@@ -1,8 +1,10 @@
 # TECPPIN INFORMÁTICA
 
+<img src="img/logo.png">
+
 # Descrição:
 
-Tecppin será uma loja de informática onde fornecera ao cliente manutenção e vendas de peças de computadores. Irá resolver o problema de vendas de peças pra o brasil em um todo.
+Tecppin será uma loja de informática onde fornecerá ao cliente manutenção e vendas de peças de computadores. Irá resolver o problema de vendas de peças pra o brasil em um todo.
 
 ### - Sistemas semelhantes:
 
@@ -12,20 +14,39 @@ Tecppin será uma loja de informática onde fornecera ao cliente manutenção e 
 
 ### - Resquisitos Funcionais:
 
-        - Registar usuario
-        - Resgistar vendedor
-        - Fazer login
-        - Cadatrar produto
-        - Pesquisar produto
-        - Visualizar produto
-        - Adicionar produto ao carrinho 
-        - Retirar produto do carrinho 
-        - Escolher forma de pagamento 
-        - Finalizar compra
-        - Cancelar compra 
-        - Emitir relatorio de vendas 
-        - Emitir relatorio de cliente 
-        - 
+        - Cadastrar usuário;
+        - Cadastrar vendedor;
+        - Fazer login;
+        - Efetuar Logout;
+        - Cadatrar produto;
+        - Pesquisar produto;
+        - Visualizar produto;
+        - Filtrar Produto; 
+        - Visualizar descrição do produto;
+        - Visualizar perfil do vendedor;
+        - Visualizar historico de compras;
+        - Adicionar produto ao carrinho; 
+        - Retirar produto do carrinho; 
+        - Escolher forma de pagamento;
+        - Cadastrar endereço de entrega;  
+        - Comprar novamente o produto;
+        - Finalizar compra;
+        - Cancelar compra;
+        - Rastrear compra;
+        - Avaliar pedido; 
+        - Contratar manutenção;
+        - Aceitar manutenção; 
+        - Relatar manutenção;
+        - Cancelar manutenção; 
+        - Fazer Orçamento;
+        - Enviar mensagem no chat;
+        - Editar mensagem;
+        - Apagar mensagem; 
+        - Visualizar histórico de mensagens;
+        - Visualizar chats; 
+        - Pesquisar conversa;
+        - Emitir relatorio de vendas; 
+        - Emitir relatorio de cliente;
 
 ### - Resquisistos não funcionais:
 
@@ -36,7 +57,6 @@ Tecppin será uma loja de informática onde fornecera ao cliente manutenção e 
         - Disponibilidade
         - Facilidade de Uso
         - Confiabilidade
-        - Localização e Internacionalização
         - Conformidade com Regulamentações
         - Personalização
 
