@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="manutencao" content="width=device-width, initial-scale=1.0">
+    <title>Manutenção</title>
+    <link rel="stylesheet" href="pagina.css">
+</head>
+<body>
+    <div class="div_princ">
+        <h1>Manutenção</h1>
+        <div class="Manutenção">
+
+        <label for="Qual equipamento com defeito.">Qual equipamento com defeito:</label>
+        <input type="text" id="Qual-equipamento-com-defeito" name="Qual equipamento com defeito" required placeholder="ex:Gabinete"><br>
+
+        <label for="defeito do equipamento.">Defeito do equipamento:</label>
+        <input type="text" id="Defeito-do-equipamento" name="defeito do equipamento" required placeholder="ex:Computador não dá video."><br>
+        
+        <label for="Número pra contato">Número pra contato:</label>
+        <input type="tel" id="Número pra contato" name="Número pra contato" pattern="[([0-9]{2})][0-9]{5}-[0-9]{4}" required placeholder="ex:(00)12345-6789" ><br>
+
+        <label for="Uso do equipamento">Uso do equipamento:</label><br>
+        <textarea id="Uso-do-equipamento" name="Uso do equipamento" rows="4" cols="50" placeholder="Algo que tenha feito recentemente no equipamento."></textarea><br>
+
+        <button type="submit">Registrar</button>
+        <button type="reset">Limpar</button> 
+        </div> 
+    </div>
+    
+</body>
+</html>
+
