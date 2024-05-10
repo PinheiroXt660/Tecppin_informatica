@@ -3,16 +3,61 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(226, 169, 240);
+}
+
+.img{
+    width: 50px;
+    height: 60px;
+}
+
+.produtos img{
+    width: 400px;
+
+}
+
+.bannerpric{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.banner{
+    width: 700px;
+    background-color: rgb(106, 65, 218);
+    margin-top: 5px;
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 5%;
+    position: 0 5%;
+    height: 85px;
 }
 
 .lado-esquerdo-menu{
     display: flex;
+    gap: 50px;
+}
+
+.lado_direito-menu{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.linepric{
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.line{
+    height: 1px;
+    background-color: #ddd;
+    width: 90%;
 }
 
 nav ul li{
