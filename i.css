@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5%;
+}
+
+.lado-esquerdo-menu{
+    display: flex;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-right: 30px;
+}
+
+nav ul li{
+    text-decoration: none;
+    color: rgba(173, 116, 226, 0.705);
+}
