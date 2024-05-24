@@ -6,67 +6,82 @@ body{
     background-color: rgb(226, 169, 240);
 }
 
-.img{
-    width: 50px;
-    height: 60px;
-}
 
-.produtos img{
-    width: 400px;
-
-}
-
-.bannerpric{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.banner{
-    width: 700px;
-    background-color: rgb(106, 65, 218);
-    margin-top: 5px;
-}
-
-.menu{
+.containerprinc{
+    background-color: #512da8;
     display: flex;
     justify-content: space-between;
+    padding: 15px;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
     align-items: center;
-    padding: 0 5%;
-    position: 0 5%;
-    height: 85px;
+    margin-left: 30px;
+
 }
 
-.lado-esquerdo-menu{
-    display: flex;
-    gap: 50px;
+.logo img {
+    width: 150px;
 }
 
-.lado_direito-menu{
+.center{
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 50px;
-}
-
-.linepric{
-    display: flex;
-    align-self: center;
     justify-content: center;
 }
 
-.line{
-    height: 1px;
-    background-color: #ddd;
-    width: 90%;
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-nav ul li{
-    display: inline-block;
-    margin-right: 30px;
+nav ul li  {
+    display: inline;
 }
-
-nav ul li{
+nav ul li a {
+    color: white;
     text-decoration: none;
-    color: rgba(173, 116, 226, 0.705);
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px;
+    font-weight: 700;
 }
 
+#divBusca{
+    background-color:#E0EEEE;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:10px;
+    font-size:18px;
+    border:none;
+    text-decoration: none;
+    height:32px;
+    width: 280px;
+  }
+  
+.carrinho {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.divcarrinho{
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
