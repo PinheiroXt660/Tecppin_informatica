@@ -7,6 +7,22 @@ body {
 
 }
 
+.produtos img{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.img{
+    width: 60px;
+    height: 60px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 h2{
     font-size: 16px;
     margin:2px;
@@ -73,3 +89,52 @@ button {
 #Defeito-do-equipamento{
     width: 45%;
 }
+
+.banner p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produtos article {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid  #926adb;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produtos h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.produtos p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.produtos .preco {
+    font-size: 16px;
+    font-weight: bold;
+    color: #a46fe0;
+    margin-top: 10px;
+}
+
+.produtos a {
+    background-color: #682bf7;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+

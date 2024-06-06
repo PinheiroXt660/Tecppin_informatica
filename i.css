@@ -7,6 +7,7 @@ body{
 }
 
 
+
 .containerprinc{
     background-color: #512da8;
     display: flex;
@@ -50,6 +51,138 @@ nav ul li a {
     font-family: Arial, Helvetica, sans-serif;
     margin:10px;
     font-weight: 700;
+}
+
+.containerprinc{
+    background-color: #512da8;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+
+}
+
+.logo img {
+    width: 150px;
+}
+
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li  {
+    display: inline;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px;
+    font-weight: 700;
+}
+
+#divBusca{
+    background-color:#E0EEEE;
+    border-radius:10px;
+    width:300px;
+    height:32px;
+  }
+  
+  #txtBusca{
+    float:left;
+    background-color:transparent;
+    padding-left:10px;
+    font-size:18px;
+    border:none;
+    text-decoration: none;
+    height:32px;
+    width: 280px;
+  }
+  
+.carrinho {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.divcarrinho{
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+    margin: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.produtos img{
+    width: 400px;
+    margin-bottom: 10px;
+}
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.produtos article {
+    width: 250px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid  #926adb;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.produtos h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.produtos p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.produtos .preco {
+    font-size: 16px;
+    font-weight: bold;
+    color: #a46fe0;
+    margin-top: 10px;
+}
+
+.produtos a {
+    background-color: #682bf7;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 #divBusca{

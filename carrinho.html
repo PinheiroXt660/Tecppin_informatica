@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho de Compras</title>
     <link rel="stylesheet" href="carrinho.css">
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <span> Carrinho de compras do <b>Tecppin</b></span>
@@ -27,11 +30,27 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <td></td>
-                        <td>R$ 120</td>
-                        <td></td>
-                        <td>R$ 2470</td>
-                        <td></td>
+                        <tr>
+                            <td>
+                                <div class="product">
+                                    <img src="img/produto.1.png" alt="">
+                                    <div class="info">
+                                        <div class="name">Nome do produto</div>
+                                        <div class="category">Categoria</div>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>R$ 120</td>
+                            <td>
+                                <div class="qty">
+                                    <button><i class='bx bx-minus'></i></button>
+                                    <span>2</span>
+                                    <button><i class='bx bx-plus'></i></button>
+                                </div>
+                            </td>
+                            <td>R$ 240</td>
+                            <td><button class="remove"><i class='bx bx-x'></i></button></td>
+                        </tr>
                     </tbody>
                 </table>
             </section>
@@ -39,4 +58,5 @@
         </div>
     </main>
 </body>
+
 </html>
