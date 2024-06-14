@@ -1,16 +1,17 @@
+
 body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    background-color: #f4f1ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(226, 169, 240);
 }
 
 h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
-    color: rgb(86, 2, 155);
-    text-shadow: 6px 6px 15px hsl(263, 80%, 46%);
+    color: #512da8;
     display: flex;
     text-align: center;
 }
@@ -20,22 +21,9 @@ h2{
         height: auto;
 }
 
-
 .produtos img{
     width: 400px;
-
-}
-
-.bannerpric{
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.banner{
-    width: 700px;
-    background-color: rgb(106, 65, 218);
-    margin-top: 5px;
+    margin-bottom: 10px;
 }
 
 .menu{
@@ -52,7 +40,8 @@ h2{
     gap: 50px;
 }
 
-.lado_direito-menu{
+
+.lado-direito-menu{
     display: flex;
     align-items: center;
     gap: 50px;
@@ -68,76 +57,6 @@ h2{
     height: 1px;
     background-color: #ddd;
     width: 90%;
-}
-
-nav ul li{
-    display: inline-block;
-    margin-right: 30px;
-}
-
-nav ul li{
-    text-decoration: none;
-    color: rgba(173, 116, 226, 0.705);
-}
-
-body{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(226, 169, 240);
-}
-
-.img{
-    width: 80px;
-    height: 60px;
-}
-
-.produtos img{
-    width: 400px;
-
-}
-
-.menu{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 5%;
-    position: 0 5%;
-    height: 85px;
-}
-
-.lado-esquerdo-menu{
-    display: flex;
-    gap: 50px;
-}
-
-.lado_direito-menu{
-    display: flex;
-    align-items: center;
-    gap: 50px;
-}
-
-.linepric{
-    display: flex;
-    align-self: center;
-    justify-content: center;
-}
-
-.line{
-    height: 1px;
-    background-color: #ddd;
-    width: 90%;
-}
-
-nav ul li{
-    display: inline-block;
-    margin-right: 30px;
-}
-
-nav ul li{
-    text-decoration: none;
-    color: rgba(173, 116, 226, 0.705);
 }
 
 .container{
@@ -149,25 +68,29 @@ nav ul li{
     gap: 100px;
 }
 
+
 .lado-esquerdo{
     display: flex;
     flex-direction: column;
     width: 1005;
 }
 
+
 .items{
     align-self: flex-end;
 }
 
+
 .select-image{
     max-width: 500px;
     border: radius 10px;
-
 }
+
 
 .select-image img{
     width: 100%;
 }
+
 
 .thumbnails{
     display: flex;
@@ -176,11 +99,12 @@ nav ul li{
     gap: 10px;
 }
 
+
 .thumbnail img{
     width: 70px;
     border-radius: 10px;
-
 }
+
 
 .content{
     max-width: 400px;
@@ -189,22 +113,16 @@ nav ul li{
     gap: 20px;
 }
 
+
 .lado-direito{
     width: 100%;
     display: flex;
     flex-direction: column;
 }
 
+
 .lado-direito p{
     font-size: 14px;
-}
-
-.minus img {
-    width: 20px;
-}
-
-.plus img {
-    width: 20px;
 }
 
 .precos{
@@ -212,20 +130,24 @@ nav ul li{
     flex-direction: column;
 }
 
+
 .preco{
     font-size: 16px;
     font-weight: 700;
 }
+
 
 .off{
     font-size: 13px;
     color: rgb(152, 15, 216);
 }
 
+
 .options{
     display: flex;
     gap: 20px;
 }
+
 .amount{
     display: flex;
     align-items: center;
@@ -239,6 +161,16 @@ nav ul li{
 .amount span{
     font-weight: 700;
     font-size: 12px;
+}
+
+
+.minus img {
+    width: 20px;
+}
+
+
+.plus img {
+    width: 20px;
 }
 
 .minus, .plus{
@@ -260,13 +192,9 @@ nav ul li{
     font-weight: 700;
 }
 
+
 .button img{
     width: 17px;
-}
-
-.produtos img{
-    width: 400px;
-    margin-bottom: 10px;
 }
 
 .produtos {
@@ -274,6 +202,7 @@ nav ul li{
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 
 .produtos article {
     width: 250px;
@@ -285,15 +214,18 @@ nav ul li{
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+
 .produtos h3 {
     font-size: 18px;
     margin-bottom: 5px;
 }
 
+
 .produtos p {
     font-size: 14px;
     line-height: 1.5;
 }
+
 
 .produtos .preco {
     font-size: 16px;
@@ -302,9 +234,11 @@ nav ul li{
     margin-top: 10px;
 }
 
+
 .produtos a {
-    background-color: #682bf7;
-    color: #fff;
+    background-color: #f4f1ff;
+    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
+    color: #512da8;
     padding: 5px 10px;
     border-radius: 5px;
     text-decoration: none;
@@ -316,4 +250,8 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+
+
+
 

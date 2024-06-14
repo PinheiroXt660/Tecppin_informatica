@@ -7,15 +7,18 @@ body {
 
 }
 
+
 .produtos img{
     width: 400px;
     margin-bottom: 10px;
 }
 
+
 .img{
     width: 60px;
     height: 60px;
 }
+
 
 img {
     max-width: 100%;
@@ -23,10 +26,13 @@ img {
 }
 
 
+
+
 h2{
     font-size: 16px;
     margin:2px;
 }
+
 
 h1{
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -36,6 +42,7 @@ h1{
     display: flex;
     text-align: center;
 }
+
 
 .div_princ{
     padding: 0;
@@ -49,9 +56,12 @@ h1{
 }
 
 
+
+
 input{
     background:  hsl(263, 88%, 75%);
 }
+
 
 input::placeholder {
     font-weight: bold;
@@ -59,20 +69,25 @@ input::placeholder {
     color: rgb(0, 0, 0);
 }
 
+
 select{
     background:  hsl(263, 88%, 75%);
     color: rgb(60, 51, 77);
 }
 
+
 textarea {
     background: hsl(263, 88%, 75%);
 }
+
 
 textarea::placeholder{
 font-weight: bold;
 opacity: 0.5;
 color: rgb(0, 0, 0);
 }
+
+
 
 
 button {
@@ -86,9 +101,11 @@ button {
     align-items: center;
 }
 
+
 #Defeito-do-equipamento{
     width: 45%;
 }
+
 
 .banner p{
     font-size: 16px;
@@ -96,11 +113,14 @@ button {
 }
 
 
+
+
 .produtos {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
 
 .produtos article {
     width: 250px;
@@ -112,15 +132,18 @@ button {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+
 .produtos h3 {
     font-size: 18px;
     margin-bottom: 5px;
 }
 
+
 .produtos p {
     font-size: 14px;
     line-height: 1.5;
 }
+
 
 .produtos .preco {
     font-size: 16px;
@@ -128,6 +151,7 @@ button {
     color: #a46fe0;
     margin-top: 10px;
 }
+
 
 .produtos a {
     background-color: #682bf7;
@@ -137,4 +161,5 @@ button {
     text-decoration: none;
     display: inline-block;
 }
+
 

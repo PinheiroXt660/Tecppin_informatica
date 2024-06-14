@@ -1,25 +1,29 @@
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastrar produto</title>
-    <link rel="stylesheet" href="pagina.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="div_princ">
-        <h1>Novo produto</h1>
+        <h2>Novo produto</h2>
         <div class="produtos">
+
 
         <label for="Nome do produto">Nome do produto:</label>
         <input type="text" id="nome" name="nome" required placeholder="Nome do produto"><br>
 
+
         <label for="Código de identificação">Código de identificação:</label>
         <input type="number" name="price" minlength="5" required placeholder="Código de identificação"><br>
 
+
         <label for="Preço por unidade">Preço por unidade:</label>
         <input type="number" name="Código" minlength="8" required placeholder="Preço por unidade"><br>
-        
+       
         <label for="Categoria">Categoria:</label>
         <select id="motivo" name="motivo">
             <option value="Hardware">Hardware</option>
@@ -29,24 +33,29 @@
             <option value="Áudio">Áudio</option>
             <option value="Segurança">Segurança</option>
             <option value="Conectividade">Conectividade</option>
-            <option value="outros">Outros</option> 
+            <option value="outros">Outros</option>
         </select><br>
+
 
         <label for="Subcategoria">Subcategoria:</label>
         <select id="Subcategoria" name="Subcategoria">
             <option value=""></option>
             <option value=""></option>
             <option value=""></option>
-            <option value="outros">Outros</option> 
+            <option value="outros">Outros</option>
         </select><br>
+
 
         <label for="Descrição">Descrição:</label><br>
         <textarea id="Descrição" name="Descrição" rows="4" cols="50" placeholder="Digite a descrição do produto aqui"></textarea><br>
 
+
         <button type="submit">Registrar</button>
-        <button type="reset">Limpar</button> 
-        </div> 
+        <button type="reset">Limpar</button>
+        </div>
     </div>
-    
+   
 </body>
 </html>
+
+
