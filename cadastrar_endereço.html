@@ -1,49 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="pagina.css">
+    <link rel="stylesheet" href="cad.css">
 </head>
-<body>
-    <h1>Novo Endereço</h1>
-    <table border="">
-        <tr>
-            <td>
-                Nome:
-                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required ><br>
-                Sobrenome:
-                    <input type="text" id="Sobrenome" name="Sobrenome" placeholder="Digite seu sobrenome" required><br>
-                CPF:
-                <input type="cpf" pattern="[0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}" placeholder="Digite seu CPF" required
-                     id="cpf" name="cpf" required><br>
-                Número de telefone:
-                    <input type="number" id="Número de telefone" name="Número de telefone" placeholder="Digite seu número" required><br>
-                Endereço:
-                    <input type="text" id="Endereço" name="Endereço" placeholder="Digite seu endereço" required><br>
-                Bairro:
-                    <input type="text" id="Bairro" name="Bairro" placeholder="Digite seu bairro" required><br>
-                Informações adicionais:
-                    <input type="text" id="Informações adicionais" name="Informações adicionais" placeholder="Digite aqui" ><br>
-                CEP/Código Postal:
-                    <input type="number" id="CEP/Código Postal" name="CEP/Código Postal" placeholder="Digite seu CEP" required><br>
-                Estado/Província:
-                    <input type="text" id="Estado/Província" name="Estado/Província" placeholder="Digite seu estado" required><br>
-                Cidade:
-                    <input type="text" id="Cidade" name="Cidade" placeholder="Digite sua cidade" required><br>
-            </td>
-        </tr>
-    </table>
-        <tr>
-            <td>
-                Definir como endereço padrão:
-                <input type="checkbox" id="padrao" name="pradrao"><br>
-            </td>
-        </tr>
 
-    <button type="submit">Finalizar</button>
+<header>
+    <div class="container">
+        <div class="logo">
+            <img src="img/logo.png" alt="Tecppin Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="inicial.html">Início</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="manutencao.html">Serviços</a></li>
+                <li><a href="nos.html">Sobre Nós</a></li>
+                <li><a href="contado.html">Contato</a></li>
+            </ul>
+        </nav>
+        <div class="header-right">
+            <input type="text" placeholder="Buscar...">
+            <button type="button">Buscar</button>
+            <a href="carrinho.html"><button type="button" class="cart-button">Carrinho</button></a>
+        </div>
+    </div>
+</header>
+
+<body>
+
+    <div class="centro">
+
+        <div class="endereço"></div>
+            <h1>Novo Endereço</h1>
+            <label for="Nome ">Nome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu nome"><br>
+
+            <label for="Nome do produto">Sobrenome:</label>
+            <input type="text" id="nome" name="nome" required placeholder="Digite seu sobrenome"><br>
+
+            <label for="Nome do produto">CPF:</label>
+            <input type="cpf" pattern="[0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}" placeholder="Digite seu CPF" required
+                id="cpf" name="cpf" required><br>
+
+            <label for="Nome do produto">Número de telefone:</label>
+            <input type="number" id="Número de telefone" name="Número de telefone" placeholder="Digite seu número"
+                required><br>
+
+            <label for="Endereço">Endereço:</label>
+            <input type="text" id="Endereço" name="Endereço" placeholder="Digite seu endereço" required><br>
+
+            <label for="Bairro">Bairro:</label>
+            <input type="text" id="Bairro" name="Bairro" placeholder="Digite seu bairro" required><br>
+
+            <label for="Informações adicionais">Informações adicionais:</label>
+            <input type="text" id="Informações adicionais" name="Informações adicionais" placeholder="Digite aqui"><br>
+
+            <label for="CEP/Código Postal">CEP/Código Postal:</label>
+            <input type="number" id="CEP/Código Postal" name="CEP/Código Postal" placeholder="Digite seu CEP" required><br>
+
+            <label for="Estado/Província">Estado/Província:</label>Estado/Província:
+            <input type="text" id="Estado/Província" name="Estado/Província" placeholder="Digite seu estado" required><br>
+
+            <label for="Cidade:">Cidade:</label>
+            <input type="text" id="Cidade" name="Cidade" placeholder="Digite sua cidade" required><br>
+
+            Definir como endereço padrão:
+            <input type="checkbox" id="padrao" name="pradrao"><br>
+
+            <button type="submit">Finalizar</button>
+        </div>
+    </div>
 
 
 </body>
+
 </html>

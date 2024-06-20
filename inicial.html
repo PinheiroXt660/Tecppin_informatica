@@ -1,62 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tecppin</title>
-    <link rel="stylesheet" href="i.css">
+    <title>Tecppin - Home</title>
+    <link rel="stylesheet" href="inicial.css">
 </head>
 
 <body>
     <header>
-        <div class="menu">
-            <div class="lado-esquerdo-menu">
-                <img class="img" src="img/tecppin.png" alt="">
-
-                    <div id="divBusca">
-                        <input type="text" id="txtBusca" placeholder="Buscar..."/>
-                        <img src="img/lupa.png" id="btnBusca" alt="Buscar"/>
-                    </div>
-
-                 <nav>
-                    <ul>
-                        <li><a href="inicial.html">Home</a></li>
-                        <li><a href="Produtos.html">Produtos</a></li>
-                        <li><a href="manutencao.html">Manutenção</a></li>
-                        <li><a href="laptops.html">Laptops</a></li>
-                        <li><a href="desktops.html">Desktops</a></li>
-                        <li><a href="componentes.html">Componentes</a></li>
-                    </ul>
-                </nav>
+        <div class="container">
+            <div class="logo">
+                <img src="img/logo.png" alt="Tecppin Logo">
             </div>
-
-            <div class="lado-direito-menu">
-                <a href="carrinho.html"><img  src="img/carrinho-de-compras (1).png" alt=""></a>
+            <nav>
+                <ul>
+                    <li><a href="inicial.html">Início</a></li>
+                    <li><a href="Produtos.html">Produtos</a></li>
+                    <li><a href="manutencao.html">Serviços</a></li>
+                    <li><a href="nos.html">Sobre Nós</a></li>
+                    <li><a href="contado.html">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header-right">
+                <input type="text" placeholder="Buscar...">
+                <button type="button">Buscar</button>
+                <a href="carrinho.html"><button type="button" class="cart-button">Carrinho</button></a>
             </div>
-
+        </div>
     </header>
 
-    <div class="linepric">
-        <div class="line"></div>
-    </div>
-
-    <div class="bannerpric">
-        <img class="banner" src="img/logo.png" alt="">
-    </div>
-
-    <section id="Home">
-        <h2>Bem vindo à Tecppin!</h2>
-        <p>Encontre os melhores aparelhos tecnológicos e manutenção para seu computador!</p>
-        <a href="#Produtos">Ver Produtos</a>
-    </section>
-
     <main>
-        <section class="secao-produtos">
-            <h2>Nossos Produtos Destaque</h2>
+        <section class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="img/carrossel1.webp" alt="Promoção 1">
+                </div>
+                <div class="slide">
+                    <img src="img/carrossel kabum.webp" alt="Promoção 2">
+                </div>
+                <div class="slide">
+                    <img src="img/carrossel2.webp" alt="Promoção 3">
+                </div>
+            </div>
+            <button class="slider-btn prev" onclick="moveSlider(-1)">&#10094;</button>
+            <button class="slider-btn next" onclick="moveSlider(1)">&#10095;</button>
+        </section>
+
+        <section class="products-section">
+            <h2>Outros Produtos</h2>
             <div class="produtos">
                 <article>
-                    <img src="img/produto.1.png" alt="Laptop Gamer">
+                    <img src="img/p1.jpg" alt="Laptop Gamer">
                     <h3>Laptop Gamer Nitro 5</h3>
                     <p>Processador Intel Core i5, 8GB RAM, Placa de Vídeo NVIDIA GeForce GTX 1650, 512GB SSD</p>
                     <span class="preco">R$ 4.999,00</span>
@@ -89,13 +85,9 @@
                     <a href="Compra.html">Comprar</a>
                 </article>
             </div>
-        </section>
+    </main>
 
-
-        </div>
-
-
-
+    <script src="inicial.js"></script>
 </body>
 
 </html>
