@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carrinho de Compras - Tecppin</title>
     <link rel="stylesheet" href="cart.css">
 </head>
+
 <body>
     <header>
         <div class="container">
@@ -21,6 +23,12 @@
                     <li><a href="contado.html">Contato</a></li>
                 </ul>
             </nav>
+            <div class="header-right">
+                <input type="text" placeholder="Buscar...">
+                <button type="button">Buscar</button>
+                <a href="carrinho.html"><button type="button" class="cart-button">Carrinho</button></a>
+                <a href="singup_sing_in.html"><button type="button" class="login-button">Login</button></a>
+            </div>
         </div>
     </header>
 
@@ -42,35 +50,24 @@
                         <tr>
                             <td>
                                 <div class="cart-product">
-                                    <img src="images/product1.jpg" alt="Produto 1">
-                                    <p>Produto 1</p>
+                                    <img src="img/p1.jpg" alt="Produto 1">
+                                    <p>Laptop Nitro 5</p>
                                 </div>
                             </td>
                             <td><input type="number" value="1" min="1"></td>
-                            <td>R$ 100,00</td>
-                            <td>R$ 100,00</td>
-                            <td><button class="remove-button">Remover</button></td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <div class="cart-product">
-                                    <img src="images/product2.jpg" alt="Produto 2">
-                                    <p>Produto 2</p>
-                                </div>
-                            </td>
-                            <td><input type="number" value="2" min="1"></td>
-                            <td>R$ 200,00</td>
-                            <td>R$ 400,00</td>
+                            <td>R$ 4.999,00</td>
+                            <td>R$ 4.999,00</td>
                             <td><button class="remove-button">Remover</button></td>
                         </tr>
                     </tbody>
                 </table>
                 <div class="cart-summary">
-                    <p>Total: <span>R$ 500,00</span></p>
+                    <p>Total: <span>R$ 4.999,00</span></p>
                     <button class="checkout-button">Finalizar Compra</button>
                 </div>
             </div>
         </section>
     </main>
 </body>
+
 </html>

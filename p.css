@@ -214,9 +214,18 @@ img {
 }
 
 .produtos {
-   
+    display: flex;
     flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
     justify-content: space-around;
+}
+
+.semelhantes{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+
 }
 
 .produtos article {

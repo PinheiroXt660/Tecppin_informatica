@@ -14,44 +14,47 @@
         </div>
         <nav>
             <ul>
-                <li><a href="#home">Início</a></li>
-                <li><a href="#products">Produtos</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#about">Sobre Nós</a></li>
-                <li><a href="#contact">Contato</a></li>
+                <li><a href="inicial.html">Início</a></li>
+                <li><a href="Produtos.html">Produtos</a></li>
+                <li><a href="manutencao.html">Serviços</a></li>
+                <li><a href="nos.html">Sobre Nós</a></li>
+                <li><a href="contado.html">Contato</a></li>
             </ul>
         </nav>
         <div class="header-right">
             <input type="text" placeholder="Buscar...">
             <button type="button">Buscar</button>
             <a href="carrinho.html"><button type="button" class="cart-button">Carrinho</button></a>
+            <a href="singup_sing_in.html"><button type="button" class="login-button">Login</button></a>
         </div>
     </div>
 </header>
 
 <body>
-    <div class="div_princ">
-        <h2>Manutenção</h2>
-        <div class="Manutenção">
+    <div class="fundo">
+        <div class="div_princ">
+            <div class="Manutenção">
+                <h2 id="manu_nome">Manutenção</h2>
 
-        <label for="Qual equipamento.">Qual equipamento:</label>
-        <input type="text" id="Qual-equipamento" name="Qual equipamento" required placeholder="ex:Gabinete"><br>
+            <label for="Qual equipamento.">Qual equipamento:</label>
+            <input type="text" id="Qual-equipamento" name="Qual equipamento" required placeholder="ex:Gabinete"><br>
 
-        
-        <label for="Número pra contato">Número pra contato:</label>
-        <input type="tel" id="Número pra contato" name="Número pra contato" pattern="[([0-9]{2})][0-9]{5}-[0-9]{4}" required placeholder="ex:(00)12345-6789" ><br>
+            
+            <label for="Número pra contato">Número pra contato:</label>
+            <input type="tel" id="Número pra contato" name="Número pra contato" pattern="[([0-9]{2})][0-9]{5}-[0-9]{4}" required placeholder="ex:(00)12345-6789" ><br>
 
-        <label for="Problema do equipamento">Problema do equipamento:</label><br>
-        <textarea id="Problema-do-equipamento" name="Problema do equipamento" rows="4" cols="50" placeholder="ex:meu computador não dá video."></textarea><br>
-        
-        <select name="tipo_manutencao" required>
-            <option value="preventiva">Preventiva</option>
-            <option value="corretiva">Corretiva</option>
-            </select>
+            <label for="Problema do equipamento">Problema do equipamento:</label><br>
+            <textarea id="Problema-do-equipamento" name="Problema do equipamento" rows="4" cols="50" placeholder="ex:meu computador não dá video."></textarea><br>
+            
+            <select name="tipo_manutencao" required>
+                <option value="preventiva">Preventiva</option>
+                <option value="corretiva">Corretiva</option>
+                </select>
 
-        <button type="submit">Concluir</button>
-        <button type="reset">Limpar</button> 
-        </div> 
+            <button type="submit">Concluir</button>
+            <button type="reset">Limpar</button> 
+            </div> 
+        </div>
     </div>
     
 </body>
