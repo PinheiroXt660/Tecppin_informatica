@@ -94,16 +94,25 @@ nav ul li a:hover {
 }
 
 .cart-button:hover {
-    background-color: #06c;
+    background-color: rgb(13, 21, 29);
 }
+
+.login-button{
+    margin-left: 10px;
+    background-color: #08f;
+    color: #fff;
+}
+
 
 .direction{
     text-align: center;
 }
+
 .direction button{
     font-family: cursive;
     font-weight: bold;
-    background-color: #08080844;
+    background-color: #512da8;
+    color: #ddd;
     border:none;
     width:50px;
     height:50px;
@@ -189,13 +198,6 @@ td{
     color: #ddd;
 }
 
-button{
-    height: auto;
-    width: auto;
-    color: #050505;
-    background: linear-gradient(to right, #e2e2e2, #c9d6ff);
-}
-
 h1{
     color: #512da8;
     justify-content: center;
@@ -266,3 +268,4 @@ img {
     text-decoration: none;
     display: inline-block;
 }
+

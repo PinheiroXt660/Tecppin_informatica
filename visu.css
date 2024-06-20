@@ -97,6 +97,13 @@ nav ul li a:hover {
     background-color: rgb(13, 21, 29);
 }
 
+.login-button{
+    margin-left: 10px;
+    background-color: #08f;
+    color: #fff;
+}
+
+
 main {
     margin-top: 80px;
     padding: 20px;
